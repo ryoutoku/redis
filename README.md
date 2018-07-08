@@ -9,6 +9,7 @@ Vagrantを使ってVirtualBox(Ubuntu14.04)内にredisを起動する
 subscriber.py側で
 * redisにデータを追加
 * redisのsubを実行
+
 publisher.py側で
 * redisのデータ変更を監視
 * 変更があった場合、pubを実行
